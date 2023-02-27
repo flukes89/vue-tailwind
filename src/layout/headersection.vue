@@ -1,39 +1,24 @@
 <template>
  <div class="">
 
-<nav class="bg-gray-800 px-4 py-2 flex flex-col lg:flex-row lg:items-center flex-shrink-0">
+<nav class="z-50 flex justify-center w-full px-4 py-3 border border-b border-gray-200 bg-gray-50 dark:border-gray-600 lg:py-4 dark:bg-gray-700">
   <div class="flex justify-between items-center lg:mr-32">
-    <span class="text-white text-xl">FWR</span>
+  <img src="../assets/images/logo.png">
+    <span class="text-black text-xl">Flowbite</span>
     <button class="border border-white px-2 py-1 rounded text-white opacity-50 hover:opacity-75 lg:hidden" id="navbar-toggle">
       <i class="fas fa-bars"></i>
     </button>
   </div>
-  <div class="hidden lg:flex flex-grow" id="navbar-collapse">
-    <ul class="flex flex-col mt-3 mb-1 lg:flex-row lg:mx-auto lg:mt-0 lg:mb-0">
-      <li>
-        <a href="#" class="block text-white hover:text-gray-300 py-2 md:mx-2">Home</a>
-      </li>
-      <li>
-        <a href="#" class="block text-white hover:text-gray-300 py-2 md:mx-2">About</a>
-      </li>
-      <li>
-        <a href="#" class="block text-white hover:text-gray-300 py-2 md:mx-2">Features</a>
-      </li>
-      <li>
-        <a href="#" class="block text-white hover:text-gray-300 py-2 md:mx-2">Contact</a>
-      </li>
-      <li>
-        <a href="#" class="block text-white hover:text-gray-300 py-2 md:mx-2">Blog</a>
-      </li>
-    </ul>
-    <div class="flex my-3 lg:my-0">
-      <button class="bg-transparent hover:bg-white text-white hover:text-gray-900 py-1 px-3 rounded border border-solid border-white mr-2">
-        Sign In
-      </button>
-      <button class="bg-purple-700 hover:bg-purple-800 text-white py-1 px-3 rounded border border-solid border-purple-700 hover:border-purple-800">
-        Sign Up
-      </button>
-    </div>
+  <div class=" lg:flex flex-grow justify-end" id="navbar-collapse">
+  
+   
+  <div class="border rounded overflow-hidden flex">
+    <input type="text" class="px-4 py-2" placeholder="Search...">
+    <button class="flex items-center justify-center px-4 border-l">
+      <svg class="h-4 w-4 text-grey-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+    </button>
+  </div>
+
   </div>
 </nav>
 
@@ -41,4 +26,3 @@
 
 </div>
 </template>
-

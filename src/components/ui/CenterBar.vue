@@ -30,7 +30,7 @@
 
 
 
-                <form class="border border-gray-200 border-solid rounded-xl p-2.5">
+                <form class="border border-gray-200 border-solid rounded-xl p-2.5"> 
                     <div class="grid gap-6 mb-6 md:grid-cols-2">
 
                     </div>
