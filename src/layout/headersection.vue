@@ -2,13 +2,14 @@
  <div class="">
 
 <nav class="z-50 flex justify-center w-full px-4 py-3 border border-b border-gray-200 bg-gray-50 dark:border-gray-600 lg:py-4 dark:bg-gray-700">
+  <RouterLink to="/">
   <div class="flex justify-between items-center lg:mr-32">
+ 
   <img src="../assets/images/logo.png">
     <span class="text-black text-xl">Flowbite</span>
-    <button class="border border-white px-2 py-1 rounded text-white opacity-50 hover:opacity-75 lg:hidden" id="navbar-toggle">
-      <i class="fas fa-bars"></i>
-    </button>
+
   </div>
+</RouterLink>
   <div class=" lg:flex flex-grow justify-end" id="navbar-collapse">
   
    
